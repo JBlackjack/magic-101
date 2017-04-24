@@ -1,0 +1,97 @@
+.page-header-container {
+    position: relative;
+    padding: 60px 0 0;
+    height: 50px;
+    width: 1366px;
+    background-color:black;
+}
+
+.logo {
+    display: block;
+    background-color:black;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    margin-top: -50px;
+    margin-left: -495px;
+}
+.back-ground-image1 {
+    padding-top: 77px;
+    background-image: url(../images/bg_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1366px 500px;
+}
+.background1 {
+    background-size: 960px 500px;
+    background-position: center;
+}
+.image-container {
+ 
+}
+
+.pic1 {
+    margin-left: 150px;
+    height: 350px;
+    width: 200px;
+}
+
+.pic2 {
+    margin-left: 220px;
+    height: 350px;
+    width: 200px;
+}
+
+.pic3 {
+    margin-left: 225px;
+    height: 350px;
+    width: 200px;
+}
+
+.text1 {
+     font-family: 'Shrikhand', cursive;
+    padding-top: 20px;
+    text-align: center;
+    color:white;
+    font-size: 50px;
+}
+nav {
+font-family: 'Questrial', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 0;
+
+}
+
+nav li {
+    display:inline-block;
+    margin-top: 0px;
+
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding:15px;
+  
+}
+
+nav ul a:hover {
+    background-color: blue;
+    color: red;
+}
+
+
+.trick1 {
+     margin
+}
+
+/* font family
+font-family: 'Shrikhand', cursive;
+font-family: 'Questrial', sans-serif;
+*/
