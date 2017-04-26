@@ -1,8 +1,28 @@
+
+* { 
+	font-family: 'Questrial', sans-serif;
+    margin: 0;
+    line-height: 1.5;
+}
+body {
+     background-image: url(../images/stage-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p, h3 {
+	font-family: 'Questrial', sans-serif;
+    color: #fff;
+    font-size: 18px;
+}
+
 .page-header-container {
     position: relative;
     padding: 60px 0 0;
     height: 50px;
-    width: 1366px;
+    width: 100%;
     background-color:black;
 }
 
@@ -24,10 +44,10 @@
     background-image: url(../images/bg_1.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1366px 500px;
+    background-size: 100% 500px;
 }
 .background1 {
-    background-size: 960px 500px;
+    background-size: 100% 500px;
     background-position: center;
 }
 .image-container {
@@ -35,19 +55,19 @@
 }
 
 .pic1 {
-    margin-left: 150px;
+    margin-left: 10em;
     height: 350px;
     width: 200px;
 }
 
 .pic2 {
-    margin-left: 220px;
+    margin-left: 14em;
     height: 350px;
     width: 200px;
 }
 
 .pic3 {
-    margin-left: 225px;
+    margin-left: 13em;
     height: 350px;
     width: 200px;
 }
@@ -56,7 +76,7 @@
      font-family: 'Shrikhand', cursive;
     padding-top: 20px;
     text-align: center;
-    color:white;
+    color: #fff;
     font-size: 50px;
 }
 nav {
@@ -87,11 +107,373 @@ nav ul a:hover {
 }
 
 
-.trick1 {
-     margin
-}
-
 /* font family
 font-family: 'Shrikhand', cursive;
 font-family: 'Questrial', sans-serif;
+*/
+
+
+
+/* OUR TEAM*/
+
+.team {
+	height: 200px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding-top: 60px;
+}
+.team ul {
+    list-style: none;
+     padding: 0;
+}
+.team h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: 'Shrikhand', cursive;
+}
+
+
+.team-block {
+    width: 80%;
+	margin: 30px auto;
+    overflow: hidden; 
+     }
+.team-block ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding: 0;
+}
+.team-block ul li {
+    float: left;
+    width: 28%;
+    margin: 2% 2% 40px 2px;
+    list-style: none;
+    text-align: center;
+    border-radius: 50%; 
+}
+
+.team-block ul li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.team-block ul li  img {
+	max-width: 100%;
+	margin: 0;
+	padding: 0 0 20px 0;
+    border-radius: 50%
+   
+}
+
+.team-block .social {
+	font-size: 35px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #afacac;
+    margin: 0 15% 0 15%;
+    padding-top: 20px;
+    
+}
+
+.team-block .social i:hover {
+color: #0b0c0c;
+cursor: pointer;
+text-decoration: none;
+transition: 0.4s;
+
+}
+/*trick_01*/
+
+.htrick1 {
+    font-family: 'Shrikhand', cursive; 
+    font-size: 36px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+    height: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+    .t1 .t1content h1 {
+        font-family: 'Questrial', sans-serif;
+    font-size: 36px;
+    color: #fff;
+    }
+
+
+.t1 {
+    width: 100vw;
+    height: 650px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;   
+}
+
+
+
+.t1 .t1content {
+  margin: 0 auto;
+  height: 100%;
+  background-image: url(../images/trick_01.png);
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: right center;
+  text-align: center;
+}
+.t1 .t1content h1 {
+    width: 50%;
+}
+.t1 .t1content p {  
+     color: #fff;
+    width: 46%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: left;
+}
+
+/*     BUTTON    */
+.t1 .t1content a {
+    width: 50%;
+    display: flex; 
+	justify-content: center;
+	align-items: center;
+    text-decoration: none;
+}
+.t1 .t1content a button {
+     color: #fff;
+background: transparent;
+font-size: 36px;
+border: solid 2px #fff;
+border-radius: 30px 30px 30px 30px;
+-moz-border-radius: 30px 30px 30px 30px;
+-webkit-border-radius: 30px 30px 30px 30px;
+padding: 10px 50px;
+outline: none;
+margin-top: 16%;
+
+}
+
+.t1 .t1content a button:hover {
+	color: #ff0000;
+	transition: 0.3s;
+}
+
+.readmore {
+    padding-top: 8%;
+}
+/*trick_02*/
+/*
+.htrick2 {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+    margin-bottom: 50px;
+    color: #000000;
+    height: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+*/
+   /* 
+    .t2 .t2content h1 {
+        font-family: 'Questrial', sans-serif;
+    font-size: 36px;
+    }
+
+ */
+.t2 {
+    width: 100vw;
+    height: 650px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;   
+}
+
+
+
+.t2 .t2content {
+  margin: 0 auto;
+  height: 100%;
+  background-image: url(../images/trick_02.png);
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: right center;
+  text-align: center;
+}
+.t2 .t2content h1 {
+     color: #fff;
+    width: 50%;
+}
+.t2 .t2content p {  
+     color: #fff;
+    width: 46%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: left;
+}
+
+/*     BUTTON    */
+.t2 .t2content a {
+    width: 50%;
+    display: flex; 
+	justify-content: center;
+	align-items: center;
+    text-decoration: none;
+}
+.t2 .t2content a button {
+    color: #fff;
+background: transparent;
+font-size: 36px;
+border: solid 2px #fff;
+border-radius: 30px 30px 30px 30px;
+-moz-border-radius: 30px 30px 30px 30px;
+-webkit-border-radius: 30px 30px 30px 30px;
+padding: 10px 50px;
+outline: none;
+margin-top: 16%;
+
+}
+
+.t2 .t2content a button:hover {
+	color: #ff0000;
+	transition: 0.3s;
+}
+
+.readmore {
+    padding-top: 8%;
+}
+/*TRICK_03*/
+
+
+ .t3 .t3content h1 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 36px;
+     color: #fff;
+    }
+
+.t3 {
+    width: 100vw;
+    height: 650px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;   
+}
+
+
+
+.t3 .t3content {
+  margin: 0 auto;
+  height: 100%;
+  background-image: url(../images/trick_03.png);
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: right center;
+  text-align: center;
+}
+.t3 .t3content h1 {
+    width: 50%;
+}
+.t3 .t3content p {  
+    color: #fff;
+    width: 46%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: left;
+}
+
+/*     BUTTON    */
+.t3 .t3content a {
+    width: 50%;
+    display: flex; 
+	justify-content: center;
+	align-items: center;
+    text-decoration: none;
+}
+.t3 .t3content a button {
+    color: #fff;
+background: transparent;
+font-size: 36px;
+border: solid 2px #fff;
+border-radius: 30px 30px 30px 30px;
+-moz-border-radius: 30px 30px 30px 30px;
+-webkit-border-radius: 30px 30px 30px 30px;
+padding: 10px 50px;
+outline: none;
+margin-top: 16%;
+
+}
+
+.t3 .t3content a button:hover {
+	color: #ff0000;
+	transition: 0.3s;
+}
+
+.readmore {
+    padding-top: 8%;
+}
+
+/* FOOTER */
+
+.footer {
+     background-color: #303030;
+     height: 400px;
+     padding: 20px;
+     clear: both;
+    margin-top: 25px;    
+}
+
+.footer .contact .items {
+	padding: 20px;
+}
+
+.footer p{
+	color: #acabab;
+    font-size: 15px;
+}
+.footer h3 {
+	color: white;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+.footer #right {
+    padding: 5px;
+    background: #303030;
+}
+
+.footer .social {
+	font-size: 30px;
+	align-content: flex-start;
+    
+}
+
+.footer .social i {
+	color: #acabab;
+    
+}
+
+
+.footer .social i:hover {
+color: #ff0000;
+cursor: pointer;
+text-decoration: none;
+transition: 0.5s;
+}
+
+
+/* body wrapper*/
+/*
+.wrapper {
+    background-image: url(../images/stage-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
 */
