@@ -238,7 +238,7 @@ transition: 0.4s;
     text-align: left;
 }
 
-/*     BUTTON    */
+/*     BUTTON for trick 1    */
 .t1 .t1content a {
     width: 50%;
     display: flex; 
@@ -269,26 +269,7 @@ margin-top: 16%;
     padding-top: 8%;
 }
 /*trick_02*/
-/*
-.htrick2 {
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	padding-top: 50px;
-    margin-bottom: 50px;
-    color: #000000;
-    height: 100px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-*/
-   /* 
-    .t2 .t2content h1 {
-        font-family: 'Questrial', sans-serif;
-    font-size: 36px;
-    }
 
- */
 .t2 {
     width: 100vw;
     height: 650px;
@@ -319,7 +300,7 @@ margin-top: 16%;
     text-align: left;
 }
 
-/*     BUTTON    */
+/*     BUTTON  for trick 2  */
 .t2 .t2content a {
     width: 50%;
     display: flex; 
@@ -387,7 +368,7 @@ margin-top: 16%;
     text-align: left;
 }
 
-/*     BUTTON    */
+/*     BUTTON for trick 3   */
 .t3 .t3content a {
     width: 50%;
     display: flex; 
@@ -465,15 +446,15 @@ text-decoration: none;
 transition: 0.5s;
 }
 
-
-/* body wrapper*/
-/*
-.wrapper {
-    background-image: url(../images/stage-background.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    
+/* top icon to the right*/
+.top {
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+    text-decoration: none;
+    padding: 20px;
+    color:#fff;
+    background-color: rgb(119,119,119);
+    background-color: rgba(119,119,119, 0.5);
+    text-align: center;
 }
-*/
